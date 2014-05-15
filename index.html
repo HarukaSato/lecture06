@@ -6,9 +6,11 @@
     <link rel="stylesheet" type="text/css" href="css/app.css">
     <link rel="stylesheet" type="text/css" href="css/alerm.css">
   </head>
+  
   <body>
     <div id="control">
       <form>
+	  <p>予鈴時間</p>
         <select id="duration">
           <option value="5">5秒後</option>
           <option value="10">10秒後</option>
@@ -19,11 +21,37 @@
           <option value="900">15分後</option>
           <option value="1800">30分後</option>
         </select>
-        に
-        <input type="text" id="message">
-        と
-        <button type="button" id="start">表示する</button>
+      </form> 
+<form>
+	  <p>発表時間</p>
+        <select id="duration">
+          <option value="5">5秒後</option>
+          <option value="10">10秒後</option>
+          <option value="30">30秒後</option>
+          <option value="60">60秒後</option>
+          <option value="90">90秒後</option>
+          <option value="180">3分後</option>
+          <option value="900">15分後</option>
+          <option value="1800">30分後</option>
+        </select>
+      </form> 
+<form>
+	  <p>質疑応答時間</p>
+        <select id="duration">
+          <option value="5">5秒後</option>
+          <option value="10">10秒後</option>
+          <option value="30">30秒後</option>
+          <option value="60">60秒後</option>
+          <option value="90">90秒後</option>
+          <option value="180">3分後</option>
+          <option value="900">15分後</option>
+          <option value="1800">30分後</option>
+        </select>
       </form>
+	  <p> </p> 
+	  <p> </p>
+		  <p> </p>  
+	  <button type="button" id="start">スタート！！！</button>
     </div>
     <div id="countdown">
       アラームをセットしてください。
@@ -31,4 +59,3 @@
     <script src="js/app.js"></script>
   </body>
 </html>
-
